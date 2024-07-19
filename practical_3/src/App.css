@@ -1,8 +1,11 @@
 .container{
   display: flex;
   flex-direction: column;
-  height: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   width: 100%;
+  background: linear-gradient(to bottom right, #FFC0CB, #FF69B4);
 }
 
 .heading-1{
