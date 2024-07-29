@@ -7,6 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <h1>Kirtan's Calculator</h1>
       <Calculator />
     </div>
   );

@@ -37,7 +37,7 @@ const Calculator = () => {
       </div>
       <div className="buttons">
         <button onClick={() => handleClick("/")}>/</button>
-        <button onClick={() => handleClick("")}></button>
+        <button onClick={() => handleClick("*")}>×</button>
         <button onClick={() => handleClick("+")}>+</button>
         <button onClick={() => handleClick("-")}>-</button>
         <button onClick={handleDelete}>DEL</button>
